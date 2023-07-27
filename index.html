@@ -55,8 +55,164 @@
               </div>  
         </nav>
     </header>
+    <!-- carusel bar started -->
     <main class="md:container md:mx-auto">
-
+      <section>
+        <div class="carousel w-full">
+            <!-- banner 1 -->
+            <div id="slide1" class="carousel-item relative w-full">
+              <img src="./images/banner1.png" class="w-full" />
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide4" class="btn btn-circle">❮</a> 
+                <a href="#slide2" class="btn btn-circle">❯</a>
+              </div>
+            </div> 
+            <!-- banner 2 -->
+            <div id="slide2" class="carousel-item relative w-full">
+              <img src="./images/banner3.png" class="w-full" />
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide1" class="btn btn-circle">❮</a> 
+                <a href="#slide3" class="btn btn-circle">❯</a>
+              </div>
+            </div> 
+            <!-- banner 3 -->
+            <div id="slide3" class="carousel-item relative w-full">
+              <img src="./images/banner3.png" class="w-full" />
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide2" class="btn btn-circle">❮</a> 
+                <a href="#slide4" class="btn btn-circle">❯</a>
+              </div>
+            </div> 
+            <div id="slide4" class="carousel-item relative w-full">
+              <img src="./images/banner4.png" class="w-full" />
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide3" class="btn btn-circle">❮</a> 
+                <a href="#slide1" class="btn btn-circle">❯</a>
+              </div>
+            </div>
+          </div>
+      </section>
+      <!-- carusel bar ended -->
+      <!-- deal of the day section started -->
+      <section class="py-10 px-5 md:flex items-center">
+        <!-- Left Content -->
+        <div class="md:w-1/2">
+          <h2 class="text-5xl font-bold mb-4">Deal of the day</h2>
+          <p class="text-gray-600">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+        </div>
+      
+        <!-- Right Content (Countdown) -->
+        <div class="md:w-1/2 flex justify-center items-center mt-5 md:mt-0">
+          <!-- Add your countdown timer code here (days:hours:minutes:seconds) -->
+          <div class="text-center">
+            <div class="text-5xl font-bold">39:</div>
+            <div class="text-sm">Days</div>
+          </div>
+          <div class="text-center mx-4">
+            <div class="text-5xl font-bold">15:</div>
+            <div class="text-sm">Hours</div>
+          </div>
+          <div class="text-center">
+            <div class="text-5xl font-bold">25:</div>
+            <div class="text-sm">Minutes</div>
+          </div>
+          <div class="text-center mx-4">
+            <div class="text-5xl font-bold">8:</div>
+            <div class="text-sm">Seconds</div>
+          </div>
+        </div>
+      </section>
+      
+      <!-- Cards Section -->
+      <section class="py-10 px-5">
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-5">
+          <!-- Card 1 -->
+          <div class="bg-white rounded-lg gap-20 shadow-md p-4 justify-center w-96 h-auto">
+           <div class="px-32 gap-x-20">
+            <img src="./images/pngwing 5.png" alt="Image 1" class="w-96 h-auto object-cover rounded-t-lg">
+           </div>
+            <h3 class="text-xl text-center font-semibold mt-2">12.90$ - 18.85$</h3>
+            <p class="text-gray-600 text-center  gap-5">Apples</p>
+            <div class="flex items-center mt-4">
+              <!-- Rating action (you can use any rating component) -->
+              <div class="rating px-28 gap-y-20">
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+              </div>
+            </div>
+            <a href="#" class="text-[#F85559] gap-y20 text-center px-32">Details</a>
+          </div>
+          <!-- grid 2 -->
+          <div class="bg-white rounded-lg gap-20 shadow-md p-4 justify-center w-96 h-auto">
+           <div class="px-32 gap-x-20">
+            <img src="./images/pngwing 6.png" alt="Image 1" class="w-96 h-auto object-cover rounded-t-lg">
+           </div>
+            <h3 class="text-xl text-center font-semibold mt-2">12.90$ - 18.85$</h3>
+            <p class="text-gray-600 text-center  gap-5">Orange</p>
+            <div class="flex items-center mt-4">
+              <!-- Rating action (you can use any rating component) -->
+              <div class="rating px-28 gap-y-20">
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+              </div>
+            </div>
+            <a href="#" class="text-[#F85559] gap-y20 text-center px-32">Details</a>
+          </div>
+          <!-- grid 3 -->
+          <div class="bg-white rounded-lg gap-20 shadow-md p-4 justify-center w-96 h-auto">
+           <div class="px-32 gap-x-20">
+            <img src="./images/pngwing 5.png" alt="Image 1" class="w-96 h-auto object-cover rounded-t-lg">
+           </div>
+            <h3 class="text-xl text-center font-semibold mt-2">12.90$ - 18.85$</h3>
+            <p class="text-gray-600 text-center  gap-5">Apples</p>
+            <div class="flex items-center mt-4">
+              <!-- Rating action (you can use any rating component) -->
+              <div class="rating px-28 gap-y-20">
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+              </div>
+            </div>
+            <a href="#" class="text-[#F85559] gap-y20 text-center px-32">Details</a>
+          </div>
+          <!-- grid 4 -->
+          <div class="bg-white rounded-lg gap-20 shadow-md p-4 justify-center w-96 h-auto">
+           <div class="px-32 gap-x-20">
+            <img src="./images/pngwing 8.png" alt="Image 1" class="w-96 h-auto object-cover rounded-t-lg">
+           </div>
+            <h3 class="text-xl text-center font-semibold mt-2">12.90$ - 18.85$</h3>
+            <p class="text-gray-600 text-center  gap-5">Banana</p>
+            <div class="flex items-center mt-4">
+              <!-- Rating action (you can use any rating component) -->
+              <div class="rating px-28 gap-y-20">
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+              </div>
+            </div>
+            <a href="#" class="text-[#F85559] gap-y20 text-center px-32">Details</a>
+          </div>
+      
+       
+    
+          <!-- Add similar markup for the other cards (Card 3 and Card 4) -->
+        </div>
+      </section>
+      
+      <!-- Button Section -->
+      <section class="flex justify-center py-10 px-5">
+        <button class="px-8 py-3 bg-blue-500 text-white rounded-lg font-semibold">Click Me</button>
+      </section>
     </main>
     <footer>
 
